@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+  margin-right: 10px;
+}
+
+.paginationBttns {
+  width: 98%;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns {
+  position: absolute;
+  bottom: 2px;
+
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #2b2eff;
+  color: #2b2eff;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #2b2eff;
+}
+
+.paginationBttns a {
+  color: black;
+  margin-right: 10px;
+}
